@@ -1,0 +1,40 @@
+[
+    {
+      "regionId": "BLG",
+      "electionId": "2023-04-02",
+      "turnout": 40.91,
+      "totalVotes": 123369,
+      "parties": [
+		{ "partyId": "gerb-sds", "votes": 40372, "percentage": 32.72 },
+		{ "partyId": "dps-nn", "votes": 26394, "percentage": 21.39 },
+		{ "partyId": "pp-db", "votes": 11137, "percentage": 9.03 },
+		{ "partyId": "vazrazhdane", "votes": 10234, "percentage": 8.30 },
+		{ "partyId": "bsp", "votes": 10040, "percentage": 8.14 },
+		{ "partyId": "aps", "votes": 8756, "percentage": 7.10 },
+		{ "partyId": "ima-takuv-narod", "votes": 5548, "percentage": 4.50 },
+		{ "partyId": "mech", "votes": 4337, "percentage": 3.52 },
+		{ "partyId": "velichie", "votes": 3727, "percentage": 3.02 },
+		{ "partyId": "glas-naroden", "votes": 239, "percentage": 0.19 },
+		{ "partyId": "bulgari", "votes": 80, "percentage": 0.06 },
+		{ "partyId": "moya-strana-bulgaria", "votes": 101, "percentage": 0.08 },
+		{ "partyId": "brigada", "votes": 48, "percentage": 0.04 },
+		{ "partyId": "zelenite", "votes": 114, "percentage": 0.09 },
+		{ "partyId": "pravoto", "votes": 93, "percentage": 0.08 },
+		{ "partyId": "bns", "votes": 85, "percentage": 0.07 },
+		{ "partyId": "bsdd", "votes": 75, "percentage": 0.06 },
+		{ "partyId": "sinya-bulgaria", "votes": 845, "percentage": 0.68 },
+		{ "partyId": "ataka", "votes": 100, "percentage": 0.08 },
+		{ "partyId": "narodna-partia", "votes": 95, "percentage": 0.08 },
+		{ "partyId": "priyaka-democracy", "votes": 198, "percentage": 0.16 },
+		{ "partyId": "svobodni-izbirateli", "votes": 194, "percentage": 0.16 },
+		{ "partyId": "btr", "votes": 46, "percentage": 0.04 },
+		{ "partyId": "koi", "votes": 54, "percentage": 0.04 },
+		{ "partyId": "rusofili", "votes": 235, "percentage": 0.19 },
+		{ "partyId": "vuzhod", "votes": 222, "percentage": 0.18 }
+	  ],
+      "mps": [
+        { "name": "Иван Иванов", "partyId": "gerb", "seatNumber": 1 },
+        { "name": "Мария Петрова", "partyId": "pp-db", "seatNumber": 2 }
+      ]
+    }
+  ]
