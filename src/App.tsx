@@ -273,7 +273,7 @@ const MapView: React.FC<{
 				: region.geometry.coordinates.flat(1);
 
 			allPoints.forEach(([x, y]) => {
-				const transformedY = -y; // Match the transformation in getPathData
+				const transformedY = -y;
 				minX = Math.min(minX, x);
 				minY = Math.min(minY, transformedY);
 				maxX = Math.max(maxX, x);

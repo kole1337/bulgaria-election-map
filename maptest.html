@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulgaria Election Results</title>
+    <style>
+        :root { --bg-color: #f4f4f9; --panel-bg: #ffffff; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg-color); display: flex; flex-direction: column; align-items: center; margin: 0; padding: 20px; }
+        
+        /* Timeline Styles */
+        .timeline { margin-bottom: 20px; display: flex; gap: 10px; }
+        .timeline button { padding: 10px 20px; border: none; background: #ddd; cursor: pointer; border-radius: 5px; }
+        .timeline button.active { background: #009688; color: white; font-weight: bold; }
+
+        /* Map Container */
+        #map-container { width: 600px; height: auto; }
+        .district { fill: #cccccc; stroke: #fff; stroke-width: 1; cursor: pointer; transition: 0.3s; }
+        .district:hover { fill: #ffa726 !important; }
+
+        /* Pop-out Panel */
+        #results-panel { 
+            position: fixed; right: -400px; top: 0; width: 350px; height: 100%; 
+            background: var(--panel-bg); box-shadow: -2px 0 10px rgba(0,0,0,0.1); 
+            transition: 0.4s; padding: 20px; overflow-y: auto;
+        }
+        #results-panel.open { right: 0; }
+        .close-btn { cursor: pointer; color: red; float: right; }
+    </style>
+</head>
+<body>
+
+    <h2>Bulgaria Election Results Dashboard</h2>
+
+    <div class="timeline" id="timeline-controls">
+        </div>
+
+    <div id="map-container">
+        <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+            <path id="sofia" class="district" d="M150,250 L200,230 L220,270 L170,290 Z" />
+            <path id="plovdiv" class="district" d="M300,350 L350,330 L370,370 L320,390 Z" />
+            <path id="varna" class="district" d="M650,150 L700,130 L720,170 L670,190 Z" />
+            </svg>
+    </div>
+
+    <div id="results-panel">
+        <span class="close-btn" onclick="closePanel()">✖ Close</span>
+        <h3 id="district-name">Select a District</h3>
+        <div id="party-results"></div>
+    </div>
+
+    <script>
+        // --- MANUAL DATA ENTRY START ---
+        const electionData = {
+            "2024-06-09": {
+                "sofia": { name: "Sofia (23rd MIR)", results: [{ party: "GERB", votes: "25%", color: "#3333ff" }, { party: "PP-DB", votes: "35%", color: "#00ccff" }] },
+                "plovdiv": { name: "Plovdiv City", results: [{ party: "GERB", votes: "30%", color: "#3333ff" }] }
+            },
+            "2023-04-02": {
+                "sofia": { name: "Sofia (23rd MIR)", results: [{ party: "PP-DB", votes: "40%", color: "#00ccff" }] }
+            }
+        };
+        // --- MANUAL DATA ENTRY END ---
+
+        let currentYear = Object.keys(electionData)[0];
+
+        function initTimeline() {
+            const container = document.getElementById('timeline-controls');
+            Object.keys(electionData).forEach(date => {
+                const btn = document.createElement('button');
+                btn.innerText = date;
+                btn.onclick = () => {
+                    currentYear = date;
+                    document.querySelectorAll('.timeline button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    updateMapColors();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function updateMapColors() {
+            // Logic to color map paths based on the winner of currentYear
+            Object.keys(electionData[currentYear]).forEach(id => {
+                const winnerColor = electionData[currentYear][id].results[0].color;
+                const path = document.getElementById(id);
+                if(path) path.style.fill = winnerColor;
+            });
+        }
+
+        document.querySelectorAll('.district').forEach(el => {
+            el.addEventListener('click', function() {
+                const data = electionData[currentYear][this.id];
+                if (!data) return;
+                
+                document.getElementById('district-name').innerText = data.name;
+                document.getElementById('party-results').innerHTML = data.results.map(r => 
+                    `<p><strong style="color:${r.color}">${r.party}</strong>: ${r.votes}</p>`
+                ).join('');
+                document.getElementById('results-panel').classList.add('open');
+            });
+        });
+
+        function closePanel() { document.getElementById('results-panel').classList.remove('open'); }
+
+        initTimeline();
+        updateMapColors();
+    </script>
+</body>
+</html>
