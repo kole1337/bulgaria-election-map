@@ -1,40 +1,4770 @@
 [
-    {
-      "regionId": "BLG",
-      "electionId": "2023-04-02",
-      "turnout": 40.91,
-      "totalVotes": 123369,
-      "parties": [
-		{ "partyId": "gerb-sds", "votes": 40372, "percentage": 32.72 },
-		{ "partyId": "dps-nn", "votes": 26394, "percentage": 21.39 },
-		{ "partyId": "pp-db", "votes": 11137, "percentage": 9.03 },
-		{ "partyId": "vazrazhdane", "votes": 10234, "percentage": 8.30 },
-		{ "partyId": "bsp", "votes": 10040, "percentage": 8.14 },
-		{ "partyId": "aps", "votes": 8756, "percentage": 7.10 },
-		{ "partyId": "ima-takuv-narod", "votes": 5548, "percentage": 4.50 },
-		{ "partyId": "mech", "votes": 4337, "percentage": 3.52 },
-		{ "partyId": "velichie", "votes": 3727, "percentage": 3.02 },
-		{ "partyId": "glas-naroden", "votes": 239, "percentage": 0.19 },
-		{ "partyId": "bulgari", "votes": 80, "percentage": 0.06 },
-		{ "partyId": "moya-strana-bulgaria", "votes": 101, "percentage": 0.08 },
-		{ "partyId": "brigada", "votes": 48, "percentage": 0.04 },
-		{ "partyId": "zelenite", "votes": 114, "percentage": 0.09 },
-		{ "partyId": "pravoto", "votes": 93, "percentage": 0.08 },
-		{ "partyId": "bns", "votes": 85, "percentage": 0.07 },
-		{ "partyId": "bsdd", "votes": 75, "percentage": 0.06 },
-		{ "partyId": "sinya-bulgaria", "votes": 845, "percentage": 0.68 },
-		{ "partyId": "ataka", "votes": 100, "percentage": 0.08 },
-		{ "partyId": "narodna-partia", "votes": 95, "percentage": 0.08 },
-		{ "partyId": "priyaka-democracy", "votes": 198, "percentage": 0.16 },
-		{ "partyId": "svobodni-izbirateli", "votes": 194, "percentage": 0.16 },
-		{ "partyId": "btr", "votes": 46, "percentage": 0.04 },
-		{ "partyId": "koi", "votes": 54, "percentage": 0.04 },
-		{ "partyId": "rusofili", "votes": 235, "percentage": 0.19 },
-		{ "partyId": "vuzhod", "votes": 222, "percentage": 0.18 }
-	  ],
-      "mps": [
-        { "name": "Иван Иванов", "partyId": "gerb", "seatNumber": 1 },
-        { "name": "Мария Петрова", "partyId": "pp-db", "seatNumber": 2 }
-      ]
-    }
-  ]
+  {
+    "regionId": "BLG",
+    "electionId": "2023-04-02",
+    "turnout": 40.91,
+    "totalVotes": 123369,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 40372,
+        "percentage": 32.72
+      },
+      {
+        "partyId": "dps-nn",
+        "votes": 26394,
+        "percentage": 21.39
+      },
+      {
+        "partyId": "pp-db",
+        "votes": 11137,
+        "percentage": 9.03
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 10234,
+        "percentage": 8.3
+      },
+      {
+        "partyId": "bsp",
+        "votes": 10040,
+        "percentage": 8.14
+      },
+      {
+        "partyId": "aps",
+        "votes": 8756,
+        "percentage": 7.1
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 5548,
+        "percentage": 4.5
+      },
+      {
+        "partyId": "mech",
+        "votes": 4337,
+        "percentage": 3.52
+      },
+      {
+        "partyId": "velichie",
+        "votes": 3727,
+        "percentage": 3.02
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 239,
+        "percentage": 0.19
+      },
+      {
+        "partyId": "bulgari",
+        "votes": 80,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "moya-strana-bulgaria",
+        "votes": 101,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "brigada",
+        "votes": 48,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 114,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 93,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bns",
+        "votes": 85,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 75,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "sinya-bulgaria",
+        "votes": 845,
+        "percentage": 0.68
+      },
+      {
+        "partyId": "ataka",
+        "votes": 100,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "narodna-partia",
+        "votes": 95,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 198,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "svobodni-izbirateli",
+        "votes": 194,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "btr",
+        "votes": 46,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "koi",
+        "votes": 54,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 235,
+        "percentage": 0.19
+      },
+      {
+        "partyId": "vuzhod",
+        "votes": 222,
+        "percentage": 0.18
+      }
+    ],
+    "mps": [
+      {
+        "name": "Иван Иванов",
+        "partyId": "gerb",
+        "seatNumber": 1
+      },
+      {
+        "name": "Мария Петрова",
+        "partyId": "pp-db",
+        "seatNumber": 2
+      }
+    ]
+  },
+  {
+    "regionId": "BLG",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 114522,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 30791,
+        "percentage": 26.89
+      },
+      {
+        "partyId": "pp",
+        "votes": 22791,
+        "percentage": 19.9
+      },
+      {
+        "partyId": "dps",
+        "votes": 19068,
+        "percentage": 16.65
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 12014,
+        "percentage": 10.49
+      },
+      {
+        "partyId": "bsp",
+        "votes": 11208,
+        "percentage": 9.79
+      },
+      {
+        "partyId": "db",
+        "votes": 5026,
+        "percentage": 4.39
+      },
+      {
+        "partyId": "vmro",
+        "votes": 3311,
+        "percentage": 2.89
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3304,
+        "percentage": 2.89
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2390,
+        "percentage": 2.09
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 571,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "onb",
+        "votes": 562,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 478,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "nod",
+        "votes": 461,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "ataka",
+        "votes": 380,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 339,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "volya",
+        "votes": 338,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 335,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 274,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 195,
+        "percentage": 0.17
+      },
+      {
+        "partyId": "mir",
+        "votes": 188,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "bno",
+        "votes": 117,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 99,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "brigada",
+        "votes": 74,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bpl",
+        "votes": 64,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 63,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 50,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 31,
+        "percentage": 0.03
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "BGS",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 137369,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 35970,
+        "percentage": 26.18
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 31808,
+        "percentage": 23.16
+      },
+      {
+        "partyId": "dps",
+        "votes": 19606,
+        "percentage": 14.27
+      },
+      {
+        "partyId": "bsp",
+        "votes": 13090,
+        "percentage": 9.53
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 12388,
+        "percentage": 9.02
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 7148,
+        "percentage": 5.2
+      },
+      {
+        "partyId": "db",
+        "votes": 6602,
+        "percentage": 4.81
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 3695,
+        "percentage": 2.69
+      },
+      {
+        "partyId": "vmro",
+        "votes": 994,
+        "percentage": 0.72
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 969,
+        "percentage": 0.71
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 701,
+        "percentage": 0.51
+      },
+      {
+        "partyId": "nod",
+        "votes": 549,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 542,
+        "percentage": 0.39
+      },
+      {
+        "partyId": "onb",
+        "votes": 522,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "ataka",
+        "votes": 505,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 353,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 351,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "volya",
+        "votes": 341,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 335,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "mir",
+        "votes": 211,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "independent-candidates",
+        "votes": 129,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 117,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "bno",
+        "votes": 116,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 87,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 77,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bpl",
+        "votes": 60,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 52,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 51,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "VAR",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 156823,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 45502,
+        "percentage": 29.01
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 41757,
+        "percentage": 26.63
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 16773,
+        "percentage": 10.7
+      },
+      {
+        "partyId": "bsp",
+        "votes": 13884,
+        "percentage": 8.85
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 10563,
+        "percentage": 6.74
+      },
+      {
+        "partyId": "db",
+        "votes": 9166,
+        "percentage": 5.84
+      },
+      {
+        "partyId": "dps",
+        "votes": 7187,
+        "percentage": 4.58
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 3762,
+        "percentage": 2.4
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1835,
+        "percentage": 1.17
+      },
+      {
+        "partyId": "volya",
+        "votes": 777,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 672,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 671,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "ataka",
+        "votes": 670,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "onb",
+        "votes": 582,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 571,
+        "percentage": 0.36
+      },
+      {
+        "partyId": "nod",
+        "votes": 534,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 404,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 315,
+        "percentage": 0.2
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 290,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "mir",
+        "votes": 210,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 173,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "bno",
+        "votes": 121,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 106,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 91,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 84,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 64,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 59,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "VTR",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 76936,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 19484,
+        "percentage": 25.32
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 16335,
+        "percentage": 21.23
+      },
+      {
+        "partyId": "bsp",
+        "votes": 11876,
+        "percentage": 15.44
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 8411,
+        "percentage": 10.93
+      },
+      {
+        "partyId": "dps",
+        "votes": 6663,
+        "percentage": 8.66
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 4263,
+        "percentage": 5.54
+      },
+      {
+        "partyId": "db",
+        "votes": 3664,
+        "percentage": 4.76
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1424,
+        "percentage": 1.85
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1074,
+        "percentage": 1.4
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 503,
+        "percentage": 0.65
+      },
+      {
+        "partyId": "nod",
+        "votes": 438,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "ataka",
+        "votes": 429,
+        "percentage": 0.56
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 388,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "onb",
+        "votes": 360,
+        "percentage": 0.47
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 289,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 230,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 215,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "volya",
+        "votes": 204,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 189,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "mir",
+        "votes": 121,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 80,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 78,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bno",
+        "votes": 73,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "bpl",
+        "votes": 53,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 35,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "brigada",
+        "votes": 31,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 26,
+        "percentage": 0.03
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "VID",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 28366,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 7968,
+        "percentage": 28.09
+      },
+      {
+        "partyId": "pp",
+        "votes": 5840,
+        "percentage": 20.59
+      },
+      {
+        "partyId": "bsp",
+        "votes": 4244,
+        "percentage": 14.96
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 3311,
+        "percentage": 11.67
+      },
+      {
+        "partyId": "dps",
+        "votes": 1783,
+        "percentage": 6.29
+      },
+      {
+        "partyId": "db",
+        "votes": 1609,
+        "percentage": 5.67
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 966,
+        "percentage": 3.41
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 928,
+        "percentage": 3.27
+      },
+      {
+        "partyId": "nod",
+        "votes": 230,
+        "percentage": 0.81
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 219,
+        "percentage": 0.77
+      },
+      {
+        "partyId": "ataka",
+        "votes": 215,
+        "percentage": 0.76
+      },
+      {
+        "partyId": "vmro",
+        "votes": 210,
+        "percentage": 0.74
+      },
+      {
+        "partyId": "onb",
+        "votes": 121,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 119,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 89,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 88,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "volya",
+        "votes": 86,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 82,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 63,
+        "percentage": 0.22
+      },
+      {
+        "partyId": "mir",
+        "votes": 53,
+        "percentage": 0.19
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 28,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bno",
+        "votes": 24,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "brigada",
+        "votes": 22,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 21,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 19,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 14,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 14,
+        "percentage": 0.05
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "VRC",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 56659,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 15550,
+        "percentage": 27.44
+      },
+      {
+        "partyId": "pp",
+        "votes": 12885,
+        "percentage": 22.74
+      },
+      {
+        "partyId": "bsp",
+        "votes": 6784,
+        "percentage": 11.97
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 6218,
+        "percentage": 10.97
+      },
+      {
+        "partyId": "dps",
+        "votes": 4924,
+        "percentage": 8.69
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2198,
+        "percentage": 3.88
+      },
+      {
+        "partyId": "db",
+        "votes": 2106,
+        "percentage": 3.72
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1993,
+        "percentage": 3.52
+      },
+      {
+        "partyId": "vmro",
+        "votes": 953,
+        "percentage": 1.68
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 418,
+        "percentage": 0.74
+      },
+      {
+        "partyId": "ataka",
+        "votes": 380,
+        "percentage": 0.67
+      },
+      {
+        "partyId": "nod",
+        "votes": 295,
+        "percentage": 0.52
+      },
+      {
+        "partyId": "onb",
+        "votes": 270,
+        "percentage": 0.48
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 268,
+        "percentage": 0.47
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 229,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 209,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "volya",
+        "votes": 197,
+        "percentage": 0.35
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 179,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 164,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "bno",
+        "votes": 93,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "mir",
+        "votes": 93,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 54,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 46,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 43,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 40,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "brigada",
+        "votes": 37,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 33,
+        "percentage": 0.06
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "GAB",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 37039,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 11069,
+        "percentage": 29.88
+      },
+      {
+        "partyId": "pp",
+        "votes": 10151,
+        "percentage": 27.41
+      },
+      {
+        "partyId": "bsp",
+        "votes": 3844,
+        "percentage": 10.38
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 3545,
+        "percentage": 9.57
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2224,
+        "percentage": 6.0
+      },
+      {
+        "partyId": "dps",
+        "votes": 1672,
+        "percentage": 4.51
+      },
+      {
+        "partyId": "db",
+        "votes": 1447,
+        "percentage": 3.91
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 905,
+        "percentage": 2.44
+      },
+      {
+        "partyId": "vmro",
+        "votes": 459,
+        "percentage": 1.24
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 236,
+        "percentage": 0.64
+      },
+      {
+        "partyId": "ataka",
+        "votes": 202,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "onb",
+        "votes": 176,
+        "percentage": 0.48
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 166,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "nod",
+        "votes": 153,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "volya",
+        "votes": 139,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 126,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 111,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 108,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 78,
+        "percentage": 0.21
+      },
+      {
+        "partyId": "mir",
+        "votes": 61,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 58,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "bno",
+        "votes": 33,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 24,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 22,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 19,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bpl",
+        "votes": 11,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 0,
+        "percentage": 0.0
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "DOB",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 52054,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 13271,
+        "percentage": 25.49
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 10515,
+        "percentage": 20.2
+      },
+      {
+        "partyId": "bsp",
+        "votes": 7559,
+        "percentage": 14.52
+      },
+      {
+        "partyId": "dps",
+        "votes": 5612,
+        "percentage": 10.78
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 5264,
+        "percentage": 10.11
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2718,
+        "percentage": 5.22
+      },
+      {
+        "partyId": "db",
+        "votes": 2166,
+        "percentage": 4.16
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1246,
+        "percentage": 2.39
+      },
+      {
+        "partyId": "vmro",
+        "votes": 712,
+        "percentage": 1.37
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 431,
+        "percentage": 0.83
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 308,
+        "percentage": 0.59
+      },
+      {
+        "partyId": "onb",
+        "votes": 299,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "ataka",
+        "votes": 290,
+        "percentage": 0.56
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 260,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "nod",
+        "votes": 259,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "volya",
+        "votes": 228,
+        "percentage": 0.44
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 199,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 173,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 156,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "mir",
+        "votes": 84,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "bpl",
+        "votes": 64,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 62,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "bno",
+        "votes": 57,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 45,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 29,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 27,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 20,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "KRZ",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 66344,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 45198,
+        "percentage": 68.13
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 6934,
+        "percentage": 10.45
+      },
+      {
+        "partyId": "pp",
+        "votes": 4662,
+        "percentage": 7.03
+      },
+      {
+        "partyId": "bsp",
+        "votes": 2881,
+        "percentage": 4.34
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 2563,
+        "percentage": 3.86
+      },
+      {
+        "partyId": "db",
+        "votes": 1074,
+        "percentage": 1.62
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 718,
+        "percentage": 1.08
+      },
+      {
+        "partyId": "nod",
+        "votes": 372,
+        "percentage": 0.56
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 286,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 224,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 191,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "onb",
+        "votes": 168,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "vmro",
+        "votes": 150,
+        "percentage": 0.23
+      },
+      {
+        "partyId": "ataka",
+        "votes": 132,
+        "percentage": 0.2
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 131,
+        "percentage": 0.2
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 125,
+        "percentage": 0.19
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 104,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "volya",
+        "votes": 99,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 74,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 74,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "bno",
+        "votes": 46,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "mir",
+        "votes": 43,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 24,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 22,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "brigada",
+        "votes": 19,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 16,
+        "percentage": 0.02
+      },
+      {
+        "partyId": "bpl",
+        "votes": 14,
+        "percentage": 0.02
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "KNL",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 40634,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 12898,
+        "percentage": 31.74
+      },
+      {
+        "partyId": "pp",
+        "votes": 10053,
+        "percentage": 24.74
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5437,
+        "percentage": 13.38
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 4248,
+        "percentage": 10.45
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1800,
+        "percentage": 4.43
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1505,
+        "percentage": 3.7
+      },
+      {
+        "partyId": "db",
+        "votes": 1318,
+        "percentage": 3.24
+      },
+      {
+        "partyId": "vmro",
+        "votes": 676,
+        "percentage": 1.66
+      },
+      {
+        "partyId": "dps",
+        "votes": 597,
+        "percentage": 1.47
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 313,
+        "percentage": 0.77
+      },
+      {
+        "partyId": "ataka",
+        "votes": 259,
+        "percentage": 0.64
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 231,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "onb",
+        "votes": 213,
+        "percentage": 0.52
+      },
+      {
+        "partyId": "nod",
+        "votes": 156,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 141,
+        "percentage": 0.35
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 132,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "volya",
+        "votes": 126,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 114,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 110,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 73,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "mir",
+        "votes": 57,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "bno",
+        "votes": 47,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "bpl",
+        "votes": 35,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 26,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 24,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 24,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 21,
+        "percentage": 0.05
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "LOV",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 41000,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 11401,
+        "percentage": 27.81
+      },
+      {
+        "partyId": "pp",
+        "votes": 9076,
+        "percentage": 22.14
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5766,
+        "percentage": 14.06
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 4339,
+        "percentage": 10.58
+      },
+      {
+        "partyId": "dps",
+        "votes": 3324,
+        "percentage": 8.11
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1875,
+        "percentage": 4.57
+      },
+      {
+        "partyId": "db",
+        "votes": 1591,
+        "percentage": 3.88
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1013,
+        "percentage": 2.47
+      },
+      {
+        "partyId": "vmro",
+        "votes": 597,
+        "percentage": 1.46
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 273,
+        "percentage": 0.67
+      },
+      {
+        "partyId": "ataka",
+        "votes": 232,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 212,
+        "percentage": 0.52
+      },
+      {
+        "partyId": "nod",
+        "votes": 205,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "onb",
+        "votes": 190,
+        "percentage": 0.46
+      },
+      {
+        "partyId": "volya",
+        "votes": 163,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 125,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 109,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 100,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 98,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "mir",
+        "votes": 70,
+        "percentage": 0.17
+      },
+      {
+        "partyId": "bno",
+        "votes": 59,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 45,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "brigada",
+        "votes": 37,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "bpl",
+        "votes": 30,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 27,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 23,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 20,
+        "percentage": 0.05
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "MON",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 44203,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 10144,
+        "percentage": 22.95
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 9145,
+        "percentage": 20.69
+      },
+      {
+        "partyId": "dps",
+        "votes": 8173,
+        "percentage": 18.49
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5504,
+        "percentage": 12.45
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 4633,
+        "percentage": 10.48
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1626,
+        "percentage": 3.68
+      },
+      {
+        "partyId": "db",
+        "votes": 1312,
+        "percentage": 2.97
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1023,
+        "percentage": 2.31
+      },
+      {
+        "partyId": "vmro",
+        "votes": 402,
+        "percentage": 0.91
+      },
+      {
+        "partyId": "nod",
+        "votes": 314,
+        "percentage": 0.71
+      },
+      {
+        "partyId": "ataka",
+        "votes": 291,
+        "percentage": 0.66
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 271,
+        "percentage": 0.61
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 209,
+        "percentage": 0.47
+      },
+      {
+        "partyId": "onb",
+        "votes": 197,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 145,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 142,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "volya",
+        "votes": 139,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 132,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 122,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "mir",
+        "votes": 83,
+        "percentage": 0.19
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 40,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 39,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "bno",
+        "votes": 33,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "bpl",
+        "votes": 28,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 20,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 19,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 17,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "PAZ",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 76893,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 20388,
+        "percentage": 26.51
+      },
+      {
+        "partyId": "pp",
+        "votes": 16462,
+        "percentage": 21.41
+      },
+      {
+        "partyId": "dps",
+        "votes": 10066,
+        "percentage": 13.09
+      },
+      {
+        "partyId": "bsp",
+        "votes": 10002,
+        "percentage": 13.01
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 7602,
+        "percentage": 9.89
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3178,
+        "percentage": 4.13
+      },
+      {
+        "partyId": "db",
+        "votes": 2838,
+        "percentage": 3.69
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2001,
+        "percentage": 2.6
+      },
+      {
+        "partyId": "vmro",
+        "votes": 891,
+        "percentage": 1.16
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 492,
+        "percentage": 0.64
+      },
+      {
+        "partyId": "ataka",
+        "votes": 436,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "onb",
+        "votes": 379,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 314,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "nod",
+        "votes": 311,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 244,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 219,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 219,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "volya",
+        "votes": 215,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 194,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "mir",
+        "votes": 108,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "bno",
+        "votes": 66,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 60,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 53,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 50,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 44,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 35,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 26,
+        "percentage": 0.03
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "PER",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 41301,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 13577,
+        "percentage": 32.87
+      },
+      {
+        "partyId": "pp",
+        "votes": 10027,
+        "percentage": 24.28
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5036,
+        "percentage": 12.19
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 4328,
+        "percentage": 10.48
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1887,
+        "percentage": 4.57
+      },
+      {
+        "partyId": "db",
+        "votes": 1824,
+        "percentage": 4.42
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1069,
+        "percentage": 2.59
+      },
+      {
+        "partyId": "dps",
+        "votes": 650,
+        "percentage": 1.57
+      },
+      {
+        "partyId": "vmro",
+        "votes": 530,
+        "percentage": 1.28
+      },
+      {
+        "partyId": "nod",
+        "votes": 355,
+        "percentage": 0.86
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 345,
+        "percentage": 0.84
+      },
+      {
+        "partyId": "ataka",
+        "votes": 288,
+        "percentage": 0.7
+      },
+      {
+        "partyId": "onb",
+        "votes": 253,
+        "percentage": 0.61
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 203,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 142,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 137,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 132,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 128,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "volya",
+        "votes": 117,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "mir",
+        "votes": 54,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 51,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 47,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 31,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 30,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "brigada",
+        "votes": 26,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 18,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 16,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "PVN",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 80706,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 19100,
+        "percentage": 23.67
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 17415,
+        "percentage": 21.58
+      },
+      {
+        "partyId": "bsp",
+        "votes": 13065,
+        "percentage": 16.19
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 11994,
+        "percentage": 14.86
+      },
+      {
+        "partyId": "dps",
+        "votes": 4863,
+        "percentage": 6.03
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3340,
+        "percentage": 4.14
+      },
+      {
+        "partyId": "db",
+        "votes": 2816,
+        "percentage": 3.49
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2742,
+        "percentage": 3.4
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1172,
+        "percentage": 1.45
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 578,
+        "percentage": 0.72
+      },
+      {
+        "partyId": "ataka",
+        "votes": 446,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "onb",
+        "votes": 415,
+        "percentage": 0.51
+      },
+      {
+        "partyId": "nod",
+        "votes": 414,
+        "percentage": 0.51
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 404,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 364,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 259,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 247,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "volya",
+        "votes": 237,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 228,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "mir",
+        "votes": 144,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "bpl",
+        "votes": 114,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "bno",
+        "votes": 89,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 76,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 63,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 45,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 40,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "brigada",
+        "votes": 36,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "PDG",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 116401,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 38647,
+        "percentage": 33.2
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 29521,
+        "percentage": 25.36
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 11509,
+        "percentage": 9.89
+      },
+      {
+        "partyId": "bsp",
+        "votes": 10772,
+        "percentage": 9.25
+      },
+      {
+        "partyId": "db",
+        "votes": 8637,
+        "percentage": 7.42
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 7470,
+        "percentage": 6.42
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2361,
+        "percentage": 2.03
+      },
+      {
+        "partyId": "dps",
+        "votes": 1925,
+        "percentage": 1.65
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1274,
+        "percentage": 1.09
+      },
+      {
+        "partyId": "onb",
+        "votes": 597,
+        "percentage": 0.51
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 500,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "ataka",
+        "votes": 498,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 453,
+        "percentage": 0.39
+      },
+      {
+        "partyId": "nod",
+        "votes": 387,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 336,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 262,
+        "percentage": 0.23
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 261,
+        "percentage": 0.22
+      },
+      {
+        "partyId": "volya",
+        "votes": 255,
+        "percentage": 0.22
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 205,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "mir",
+        "votes": 126,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "bno",
+        "votes": 98,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 98,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 61,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 42,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 42,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 39,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "bpl",
+        "votes": 25,
+        "percentage": 0.02
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "PDO",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 95811,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 25625,
+        "percentage": 26.75
+      },
+      {
+        "partyId": "pp",
+        "votes": 21659,
+        "percentage": 22.61
+      },
+      {
+        "partyId": "bsp",
+        "votes": 14220,
+        "percentage": 14.84
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 9848,
+        "percentage": 10.28
+      },
+      {
+        "partyId": "dps",
+        "votes": 7652,
+        "percentage": 7.99
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 4768,
+        "percentage": 4.98
+      },
+      {
+        "partyId": "db",
+        "votes": 3334,
+        "percentage": 3.48
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2447,
+        "percentage": 2.55
+      },
+      {
+        "partyId": "vmro",
+        "votes": 904,
+        "percentage": 0.94
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 778,
+        "percentage": 0.81
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 645,
+        "percentage": 0.67
+      },
+      {
+        "partyId": "onb",
+        "votes": 579,
+        "percentage": 0.6
+      },
+      {
+        "partyId": "ataka",
+        "votes": 555,
+        "percentage": 0.58
+      },
+      {
+        "partyId": "nod",
+        "votes": 468,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 449,
+        "percentage": 0.47
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 368,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "volya",
+        "votes": 330,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 304,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 247,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "mir",
+        "votes": 154,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 98,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bno",
+        "votes": 89,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 76,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 62,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 55,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 53,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 44,
+        "percentage": 0.05
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "RAZ",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 40943,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 18183,
+        "percentage": 44.41
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 7209,
+        "percentage": 17.61
+      },
+      {
+        "partyId": "pp",
+        "votes": 4379,
+        "percentage": 10.7
+      },
+      {
+        "partyId": "db",
+        "votes": 2942,
+        "percentage": 7.19
+      },
+      {
+        "partyId": "bsp",
+        "votes": 2697,
+        "percentage": 6.59
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 2338,
+        "percentage": 5.71
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 956,
+        "percentage": 2.33
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 416,
+        "percentage": 1.02
+      },
+      {
+        "partyId": "vmro",
+        "votes": 233,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 213,
+        "percentage": 0.52
+      },
+      {
+        "partyId": "nod",
+        "votes": 177,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 176,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "ataka",
+        "votes": 149,
+        "percentage": 0.36
+      },
+      {
+        "partyId": "volya",
+        "votes": 136,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "onb",
+        "votes": 124,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 119,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 116,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 103,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 72,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "bno",
+        "votes": 43,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "mir",
+        "votes": 42,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bpl",
+        "votes": 35,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 27,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 27,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 15,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 9,
+        "percentage": 0.02
+      },
+      {
+        "partyId": "brigada",
+        "votes": 7,
+        "percentage": 0.02
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "RSE",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 70503,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 20791,
+        "percentage": 29.49
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 15000,
+        "percentage": 21.28
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 8369,
+        "percentage": 11.87
+      },
+      {
+        "partyId": "bsp",
+        "votes": 7827,
+        "percentage": 11.1
+      },
+      {
+        "partyId": "dps",
+        "votes": 5715,
+        "percentage": 8.11
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3977,
+        "percentage": 5.64
+      },
+      {
+        "partyId": "db",
+        "votes": 2943,
+        "percentage": 4.17
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1397,
+        "percentage": 1.98
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1170,
+        "percentage": 1.66
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 437,
+        "percentage": 0.62
+      },
+      {
+        "partyId": "ataka",
+        "votes": 399,
+        "percentage": 0.57
+      },
+      {
+        "partyId": "onb",
+        "votes": 395,
+        "percentage": 0.56
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 346,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "nod",
+        "votes": 303,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 230,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 229,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "volya",
+        "votes": 205,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 178,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 177,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "mir",
+        "votes": 94,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 67,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 65,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 53,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 42,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 35,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "brigada",
+        "votes": 31,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bpl",
+        "votes": 28,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SLS",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 42089,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 12130,
+        "percentage": 28.82
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 10203,
+        "percentage": 24.24
+      },
+      {
+        "partyId": "pp",
+        "votes": 7185,
+        "percentage": 17.07
+      },
+      {
+        "partyId": "bsp",
+        "votes": 3749,
+        "percentage": 8.91
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 3303,
+        "percentage": 7.85
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1190,
+        "percentage": 2.83
+      },
+      {
+        "partyId": "db",
+        "votes": 1000,
+        "percentage": 2.38
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 620,
+        "percentage": 1.47
+      },
+      {
+        "partyId": "nod",
+        "votes": 589,
+        "percentage": 1.4
+      },
+      {
+        "partyId": "vmro",
+        "votes": 343,
+        "percentage": 0.81
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 274,
+        "percentage": 0.65
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 203,
+        "percentage": 0.48
+      },
+      {
+        "partyId": "volya",
+        "votes": 178,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "ataka",
+        "votes": 170,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "onb",
+        "votes": 164,
+        "percentage": 0.39
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 146,
+        "percentage": 0.35
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 141,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 108,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 105,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "bno",
+        "votes": 67,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "mir",
+        "votes": 56,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 42,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 34,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 29,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "brigada",
+        "votes": 27,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 17,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 16,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SLV",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 50149,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 13436,
+        "percentage": 26.79
+      },
+      {
+        "partyId": "pp",
+        "votes": 12946,
+        "percentage": 25.82
+      },
+      {
+        "partyId": "bsp",
+        "votes": 6007,
+        "percentage": 11.98
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 5115,
+        "percentage": 10.2
+      },
+      {
+        "partyId": "dps",
+        "votes": 2872,
+        "percentage": 5.73
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2453,
+        "percentage": 4.89
+      },
+      {
+        "partyId": "db",
+        "votes": 2058,
+        "percentage": 4.1
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1833,
+        "percentage": 3.66
+      },
+      {
+        "partyId": "vmro",
+        "votes": 396,
+        "percentage": 0.79
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 374,
+        "percentage": 0.75
+      },
+      {
+        "partyId": "ataka",
+        "votes": 308,
+        "percentage": 0.61
+      },
+      {
+        "partyId": "volya",
+        "votes": 301,
+        "percentage": 0.6
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 275,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "onb",
+        "votes": 253,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "nod",
+        "votes": 249,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 243,
+        "percentage": 0.48
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 213,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 185,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 164,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "mir",
+        "votes": 142,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "bno",
+        "votes": 78,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 71,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 41,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 41,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 35,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "brigada",
+        "votes": 35,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 25,
+        "percentage": 0.05
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SML",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 41481,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 10289,
+        "percentage": 24.8
+      },
+      {
+        "partyId": "dps",
+        "votes": 8778,
+        "percentage": 21.16
+      },
+      {
+        "partyId": "pp",
+        "votes": 8247,
+        "percentage": 19.88
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5156,
+        "percentage": 12.43
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 3793,
+        "percentage": 9.14
+      },
+      {
+        "partyId": "db",
+        "votes": 1520,
+        "percentage": 3.66
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1014,
+        "percentage": 2.44
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 638,
+        "percentage": 1.54
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 260,
+        "percentage": 0.63
+      },
+      {
+        "partyId": "onb",
+        "votes": 230,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 186,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "vmro",
+        "votes": 170,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 159,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "nod",
+        "votes": 156,
+        "percentage": 0.38
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 151,
+        "percentage": 0.36
+      },
+      {
+        "partyId": "ataka",
+        "votes": 146,
+        "percentage": 0.35
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 112,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 100,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "volya",
+        "votes": 88,
+        "percentage": 0.21
+      },
+      {
+        "partyId": "mir",
+        "votes": 63,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 48,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 45,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "bno",
+        "votes": 42,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bpl",
+        "votes": 33,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 22,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 18,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 17,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SOF23",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 209746,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 76590,
+        "percentage": 36.52
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 45148,
+        "percentage": 21.53
+      },
+      {
+        "partyId": "db",
+        "votes": 32785,
+        "percentage": 15.63
+      },
+      {
+        "partyId": "bsp",
+        "votes": 17941,
+        "percentage": 8.55
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 12437,
+        "percentage": 5.93
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 9688,
+        "percentage": 4.62
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 5902,
+        "percentage": 2.81
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1714,
+        "percentage": 0.82
+      },
+      {
+        "partyId": "dps",
+        "votes": 1125,
+        "percentage": 0.54
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 904,
+        "percentage": 0.43
+      },
+      {
+        "partyId": "onb",
+        "votes": 731,
+        "percentage": 0.35
+      },
+      {
+        "partyId": "ataka",
+        "votes": 695,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "nod",
+        "votes": 664,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 559,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 509,
+        "percentage": 0.24
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 361,
+        "percentage": 0.17
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 335,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "mir",
+        "votes": 321,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 319,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 256,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "volya",
+        "votes": 219,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bno",
+        "votes": 139,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 107,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 94,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 84,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bpl",
+        "votes": 65,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "brigada",
+        "votes": 54,
+        "percentage": 0.03
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SOF24",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 145496,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 48568,
+        "percentage": 33.38
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 34950,
+        "percentage": 24.02
+      },
+      {
+        "partyId": "db",
+        "votes": 21169,
+        "percentage": 14.55
+      },
+      {
+        "partyId": "bsp",
+        "votes": 12204,
+        "percentage": 8.39
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 10129,
+        "percentage": 6.96
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 7429,
+        "percentage": 5.11
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 3723,
+        "percentage": 2.56
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1478,
+        "percentage": 1.02
+      },
+      {
+        "partyId": "dps",
+        "votes": 767,
+        "percentage": 0.53
+      },
+      {
+        "partyId": "ataka",
+        "votes": 647,
+        "percentage": 0.44
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 635,
+        "percentage": 0.44
+      },
+      {
+        "partyId": "nod",
+        "votes": 602,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "onb",
+        "votes": 601,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 486,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 375,
+        "percentage": 0.26
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 260,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 234,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 216,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 206,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "volya",
+        "votes": 186,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "mir",
+        "votes": 182,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 81,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 74,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 72,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 69,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bpl",
+        "votes": 59,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "independent-candidates",
+        "votes": 53,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 41,
+        "percentage": 0.03
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SOF25",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 144010,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 46256,
+        "percentage": 32.12
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 37636,
+        "percentage": 26.13
+      },
+      {
+        "partyId": "db",
+        "votes": 13881,
+        "percentage": 9.64
+      },
+      {
+        "partyId": "bsp",
+        "votes": 13602,
+        "percentage": 9.45
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 11982,
+        "percentage": 8.32
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 8359,
+        "percentage": 5.8
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 3558,
+        "percentage": 2.47
+      },
+      {
+        "partyId": "vmro",
+        "votes": 2026,
+        "percentage": 1.41
+      },
+      {
+        "partyId": "dps",
+        "votes": 948,
+        "percentage": 0.66
+      },
+      {
+        "partyId": "ataka",
+        "votes": 794,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 789,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "onb",
+        "votes": 651,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 603,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 475,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "nod",
+        "votes": 439,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 360,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 281,
+        "percentage": 0.2
+      },
+      {
+        "partyId": "volya",
+        "votes": 255,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 255,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "mir",
+        "votes": 217,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 208,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "bno",
+        "votes": 116,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 77,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 69,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bpl",
+        "votes": 61,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 57,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 55,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SFO",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 75127,
+    "parties": [
+      {
+        "partyId": "gerb-sds",
+        "votes": 21612,
+        "percentage": 28.77
+      },
+      {
+        "partyId": "pp",
+        "votes": 17551,
+        "percentage": 23.36
+      },
+      {
+        "partyId": "bsp",
+        "votes": 10008,
+        "percentage": 13.32
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 7916,
+        "percentage": 10.54
+      },
+      {
+        "partyId": "dps",
+        "votes": 4279,
+        "percentage": 5.7
+      },
+      {
+        "partyId": "db",
+        "votes": 3191,
+        "percentage": 4.25
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3179,
+        "percentage": 4.23
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1666,
+        "percentage": 2.22
+      },
+      {
+        "partyId": "vmro",
+        "votes": 1299,
+        "percentage": 1.73
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 614,
+        "percentage": 0.82
+      },
+      {
+        "partyId": "onb",
+        "votes": 485,
+        "percentage": 0.65
+      },
+      {
+        "partyId": "ataka",
+        "votes": 477,
+        "percentage": 0.63
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 470,
+        "percentage": 0.63
+      },
+      {
+        "partyId": "nod",
+        "votes": 343,
+        "percentage": 0.46
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 308,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 276,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "volya",
+        "votes": 245,
+        "percentage": 0.33
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 244,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 239,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "mir",
+        "votes": 237,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bno",
+        "votes": 110,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 106,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 73,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bpl",
+        "votes": 59,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "brigada",
+        "votes": 54,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 44,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 42,
+        "percentage": 0.06
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SZR",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 104460,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 28683,
+        "percentage": 27.46
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 24107,
+        "percentage": 23.08
+      },
+      {
+        "partyId": "bsp",
+        "votes": 13236,
+        "percentage": 12.67
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 11850,
+        "percentage": 11.34
+      },
+      {
+        "partyId": "dps",
+        "votes": 7033,
+        "percentage": 6.73
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 6514,
+        "percentage": 6.24
+      },
+      {
+        "partyId": "db",
+        "votes": 4424,
+        "percentage": 4.24
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2778,
+        "percentage": 2.66
+      },
+      {
+        "partyId": "vmro",
+        "votes": 924,
+        "percentage": 0.88
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 720,
+        "percentage": 0.69
+      },
+      {
+        "partyId": "ataka",
+        "votes": 603,
+        "percentage": 0.58
+      },
+      {
+        "partyId": "onb",
+        "votes": 502,
+        "percentage": 0.48
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 466,
+        "percentage": 0.45
+      },
+      {
+        "partyId": "nod",
+        "votes": 413,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "volya",
+        "votes": 355,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 354,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 324,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 311,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 220,
+        "percentage": 0.21
+      },
+      {
+        "partyId": "mir",
+        "votes": 141,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 105,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bpl",
+        "votes": 96,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 95,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 75,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 47,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 45,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 39,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "TGV",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 37058,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 14015,
+        "percentage": 37.82
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 6283,
+        "percentage": 16.95
+      },
+      {
+        "partyId": "pp",
+        "votes": 5266,
+        "percentage": 14.21
+      },
+      {
+        "partyId": "bsp",
+        "votes": 4032,
+        "percentage": 10.88
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 2856,
+        "percentage": 7.71
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 1082,
+        "percentage": 2.92
+      },
+      {
+        "partyId": "db",
+        "votes": 1031,
+        "percentage": 2.78
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 537,
+        "percentage": 1.45
+      },
+      {
+        "partyId": "vmro",
+        "votes": 267,
+        "percentage": 0.72
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 216,
+        "percentage": 0.58
+      },
+      {
+        "partyId": "nod",
+        "votes": 195,
+        "percentage": 0.53
+      },
+      {
+        "partyId": "onb",
+        "votes": 170,
+        "percentage": 0.46
+      },
+      {
+        "partyId": "ataka",
+        "votes": 144,
+        "percentage": 0.39
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 143,
+        "percentage": 0.39
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 126,
+        "percentage": 0.34
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 120,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 114,
+        "percentage": 0.31
+      },
+      {
+        "partyId": "volya",
+        "votes": 113,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 99,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 51,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "mir",
+        "votes": 49,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 39,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "bpl",
+        "votes": 31,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 22,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 22,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "brigada",
+        "votes": 21,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 14,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "HKV",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 82717,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 21445,
+        "percentage": 25.93
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 18642,
+        "percentage": 22.54
+      },
+      {
+        "partyId": "dps",
+        "votes": 13876,
+        "percentage": 16.78
+      },
+      {
+        "partyId": "bsp",
+        "votes": 8515,
+        "percentage": 10.29
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 7710,
+        "percentage": 9.32
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 3732,
+        "percentage": 4.51
+      },
+      {
+        "partyId": "db",
+        "votes": 2954,
+        "percentage": 3.57
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 1728,
+        "percentage": 2.09
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 506,
+        "percentage": 0.61
+      },
+      {
+        "partyId": "vmro",
+        "votes": 448,
+        "percentage": 0.54
+      },
+      {
+        "partyId": "ataka",
+        "votes": 361,
+        "percentage": 0.44
+      },
+      {
+        "partyId": "onb",
+        "votes": 351,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 351,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "nod",
+        "votes": 330,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 296,
+        "percentage": 0.36
+      },
+      {
+        "partyId": "volya",
+        "votes": 251,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 226,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 226,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 207,
+        "percentage": 0.25
+      },
+      {
+        "partyId": "mir",
+        "votes": 165,
+        "percentage": 0.2
+      },
+      {
+        "partyId": "bno",
+        "votes": 104,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 84,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 56,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "bpl",
+        "votes": 44,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 41,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 34,
+        "percentage": 0.04
+      },
+      {
+        "partyId": "brigada",
+        "votes": 34,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "SHU",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 56419,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 13976,
+        "percentage": 24.77
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 12889,
+        "percentage": 22.85
+      },
+      {
+        "partyId": "pp",
+        "votes": 11246,
+        "percentage": 19.93
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5569,
+        "percentage": 9.87
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 4859,
+        "percentage": 8.61
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2114,
+        "percentage": 3.75
+      },
+      {
+        "partyId": "db",
+        "votes": 1500,
+        "percentage": 2.66
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 837,
+        "percentage": 1.48
+      },
+      {
+        "partyId": "vmro",
+        "votes": 596,
+        "percentage": 1.06
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 353,
+        "percentage": 0.63
+      },
+      {
+        "partyId": "nod",
+        "votes": 307,
+        "percentage": 0.54
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 293,
+        "percentage": 0.52
+      },
+      {
+        "partyId": "volya",
+        "votes": 281,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "onb",
+        "votes": 274,
+        "percentage": 0.49
+      },
+      {
+        "partyId": "ataka",
+        "votes": 236,
+        "percentage": 0.42
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 226,
+        "percentage": 0.4
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 182,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 171,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 156,
+        "percentage": 0.28
+      },
+      {
+        "partyId": "mir",
+        "votes": 75,
+        "percentage": 0.13
+      },
+      {
+        "partyId": "bno",
+        "votes": 62,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 59,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 40,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "bpl",
+        "votes": 35,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 30,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "brigada",
+        "votes": 30,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 23,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "JAM",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 35887,
+    "parties": [
+      {
+        "partyId": "pp",
+        "votes": 9227,
+        "percentage": 25.71
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 8625,
+        "percentage": 24.03
+      },
+      {
+        "partyId": "bsp",
+        "votes": 6990,
+        "percentage": 19.48
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 3544,
+        "percentage": 9.88
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 2080,
+        "percentage": 5.8
+      },
+      {
+        "partyId": "db",
+        "votes": 1468,
+        "percentage": 4.09
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 994,
+        "percentage": 2.77
+      },
+      {
+        "partyId": "dps",
+        "votes": 597,
+        "percentage": 1.66
+      },
+      {
+        "partyId": "ataka",
+        "votes": 403,
+        "percentage": 1.12
+      },
+      {
+        "partyId": "vmro",
+        "votes": 284,
+        "percentage": 0.79
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 254,
+        "percentage": 0.71
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 196,
+        "percentage": 0.55
+      },
+      {
+        "partyId": "nod",
+        "votes": 179,
+        "percentage": 0.5
+      },
+      {
+        "partyId": "onb",
+        "votes": 165,
+        "percentage": 0.46
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 146,
+        "percentage": 0.41
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 128,
+        "percentage": 0.36
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 115,
+        "percentage": 0.32
+      },
+      {
+        "partyId": "volya",
+        "votes": 106,
+        "percentage": 0.3
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 104,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "mir",
+        "votes": 54,
+        "percentage": 0.15
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 52,
+        "percentage": 0.14
+      },
+      {
+        "partyId": "brigada",
+        "votes": 42,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "bno",
+        "votes": 39,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 31,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 28,
+        "percentage": 0.08
+      },
+      {
+        "partyId": "bpl",
+        "votes": 20,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 16,
+        "percentage": 0.04
+      }
+    ],
+    "mps": []
+  },
+  {
+    "regionId": "ABR",
+    "electionId": "2021-11-14",
+    "turnout": 0,
+    "totalVotes": 223657,
+    "parties": [
+      {
+        "partyId": "dps",
+        "votes": 87743,
+        "percentage": 39.23
+      },
+      {
+        "partyId": "pp",
+        "votes": 49066,
+        "percentage": 21.94
+      },
+      {
+        "partyId": "ima-takuv-narod",
+        "votes": 24554,
+        "percentage": 10.98
+      },
+      {
+        "partyId": "gerb-sds",
+        "votes": 17730,
+        "percentage": 7.93
+      },
+      {
+        "partyId": "db",
+        "votes": 17572,
+        "percentage": 7.86
+      },
+      {
+        "partyId": "vazrazhdane",
+        "votes": 13755,
+        "percentage": 6.15
+      },
+      {
+        "partyId": "bsp",
+        "votes": 5112,
+        "percentage": 2.29
+      },
+      {
+        "partyId": "izpravi-se-bg",
+        "votes": 2638,
+        "percentage": 1.18
+      },
+      {
+        "partyId": "vmro",
+        "votes": 830,
+        "percentage": 0.37
+      },
+      {
+        "partyId": "onb",
+        "votes": 648,
+        "percentage": 0.29
+      },
+      {
+        "partyId": "glas-naroden",
+        "votes": 596,
+        "percentage": 0.27
+      },
+      {
+        "partyId": "ataka",
+        "votes": 413,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "rusofili",
+        "votes": 410,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "nod",
+        "votes": 392,
+        "percentage": 0.18
+      },
+      {
+        "partyId": "bsd-evrolevitsa",
+        "votes": 349,
+        "percentage": 0.16
+      },
+      {
+        "partyId": "zelenite",
+        "votes": 275,
+        "percentage": 0.12
+      },
+      {
+        "partyId": "mir",
+        "votes": 241,
+        "percentage": 0.11
+      },
+      {
+        "partyId": "pravoto",
+        "votes": 214,
+        "percentage": 0.1
+      },
+      {
+        "partyId": "bsdd",
+        "votes": 210,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "patriotichen-front",
+        "votes": 195,
+        "percentage": 0.09
+      },
+      {
+        "partyId": "bno",
+        "votes": 164,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "volya",
+        "votes": 157,
+        "percentage": 0.07
+      },
+      {
+        "partyId": "blagodenstvie",
+        "votes": 128,
+        "percentage": 0.06
+      },
+      {
+        "partyId": "priyaka-democracy",
+        "votes": 106,
+        "percentage": 0.05
+      },
+      {
+        "partyId": "brigada",
+        "votes": 58,
+        "percentage": 0.03
+      },
+      {
+        "partyId": "bpl",
+        "votes": 52,
+        "percentage": 0.02
+      },
+      {
+        "partyId": "bns-nd",
+        "votes": 49,
+        "percentage": 0.02
+      }
+    ],
+    "mps": []
+  }
+]
